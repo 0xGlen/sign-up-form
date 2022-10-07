@@ -35,7 +35,7 @@ app.post('/', function(req, res){
 
     const options = {
         method: "POST",
-        auth:"glen:c58e7d0ee6e0726b66e1785efa7c3a69-us14"
+        auth:"glen:[insert API key]"
     }
 
     const request = https.request(url, options, function(response){
@@ -63,5 +63,4 @@ app.listen(process.env.PORT || 3000, function(){
     console.log('Server is running on port 3000')
 })
 
-//API Key: c58e7d0ee6e0726b66e1785efa7c3a69-us14
 //Audience ID: c73373fe80
